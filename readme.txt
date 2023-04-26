@@ -1,1 +1,1 @@
-Este repositorio tiene los ejercicios del curso de java basico
+Este repositorio tiene los ejercicios del curso de java basico de open bootcamp
