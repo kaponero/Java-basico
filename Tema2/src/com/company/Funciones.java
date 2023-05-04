@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Funciones {
     /**
      *
@@ -8,10 +10,14 @@ public class Funciones {
 
     public static void main(String[] args) {
 
-        System.out.println(Precio(89));
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduce el precio");
+        int precio = scanner.nextInt();
+
+        System.out.println("El precio con IVA es: " + Precio(precio));
     }
 
-    static double Precio (float precio){
+    static double Precio (int precio){
         return precio + precio*0.21;
     }
 }
